@@ -1,0 +1,79 @@
+{
+    "rust-analyzer.inlayHints.enable": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.fontFamily": "JetBrainsMono NF",
+    "editor.fontFamily": "JetBrainsMono NF",
+    "editor.fontLigatures": true,
+    "terminal.integrated.gpuAcceleration": "on",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "processing.py.jarPath": "D:\\processing\\processing.py-3017\\processing-py.jar",
+    "debug.onTaskErrors": "abort",
+    "editor.formatOnSave": true,
+    "calva.highlight.enableBracketColors": false,
+    "editor.bracketPairColorization.enabled": false,
+    "editor.minimap.enabled": false,
+    "terminal.external.windowsExec": "C:\\Users\\disco\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "rust-analyzer.inlayHints.chainingHints.enable": false,
+    "rust-analyzer.inlayHints.parameterHints.enable": false,
+    "rust-analyzer.inlayHints.typeHints.enable": false,
+    "editor.inlayHints.enabled": "off",
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideTabs": false,
+    "debug.console.fontFamily": "JetBrainsMono NF",
+    "editor.inlayHints.fontFamily": "JetBrainsMono NF",
+    "scm.inputFontFamily": "JetBrainsMono NF",
+    "notebook.outputFontFamily": "JetBrainsMono NF",
+    "workbench.colorTheme": "Darcula",
+    "editor.lightbulb.enabled": false,
+    "scm.countBadge": "off",
+    "editor.cursorStyle": "block",
+    "editor.codeLens": false,
+    "editor.codeLensFontFamily": "JetBrainsMono NF",
+    "editor.hover.delay": 150,
+    "editor.cursorBlinking": "solid",
+    "workbench.hover.delay": 300,
+    "workbench.layoutControl.enabled": false,
+    "workbench.startupEditor": "none",
+    "workbench.preferredDarkColorTheme": "Darcula",
+    "workbench.preferredHighContrastColorTheme": "Darcula",
+    "workbench.preferredHighContrastLightColorTheme": "Darcula",
+    "workbench.preferredLightColorTheme": "Darcula",
+    "window.autoDetectHighContrast": false,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "args": [
+                "-NoLogo"
+            ]
+        }
+    },
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "python.defaultInterpreterPath": "c:\\Windows\\py.exe",
+    "files.eol": "\n",
+    "files.associations": {
+        "input": "plaintext",
+        "*.jj": "java",
+        "*.pl": "prolog"
+    },
+    "workbench.editor.languageDetection": false,
+    "remote.SSH.remotePlatform": {
+        "remote-32.dcs.warwick.ac.uk": "linux"
+    },
+    "vscode-ahk-plus.executePath": "C:/Program Files/AutoHotkey/v2\\AutoHotkey64.exe",
+    "vscode-ahk-plus.documentPath": "C:/Program Files/AutoHotkey/v2/AutoHotkey.chm",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "redhat.telemetry.enabled": false,
+    "prolog.executablePath": "D:\\swipl\\bin\\swipl"
+}
