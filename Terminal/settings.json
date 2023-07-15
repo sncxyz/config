@@ -1,15 +1,13 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
+    "actions": [
         {
             "command": "find",
             "keys": "ctrl+f"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "copy",
                 "singleLine": false
             },
@@ -20,8 +18,7 @@
             "keys": "ctrl+v"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -69,22 +66,19 @@
             "keys": "ctrl+shift+t"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "newTab"
             },
             "keys": "ctrl+t"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "scrollDown"
             },
             "keys": "ctrl+down"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "scrollUp"
             },
             "keys": "ctrl+up"
@@ -95,27 +89,23 @@
     "defaultProfile": "{cb7fc3d4-2cc2-40d8-8369-97485934bcf2}",
     "experimental.rendering.forceFullRepaint": true,
     "launchMode": "maximized",
-    "profiles": 
-    {
-        "defaults": 
-        {
+    "profiles": {
+        "defaults": {
             "antialiasingMode": "cleartype",
             "colorScheme": "One Half Dark",
             "cursorShape": "filledBox",
-            "font": 
-            {
+            "font": {
                 "face": "JetBrainsMono NF",
                 "size": 11,
                 "weight": "light"
             },
             "intenseTextStyle": "bold",
             "padding": "8",
-            "startingDirectory": "D:\\dev"
+            "startingDirectory": "[starting directory]"
         },
-        "list": 
-        [
+        "list": [
             {
-                "commandline": "C:\\Users\\disco\\.cargo\\bin\\nu.exe",
+                "commandline": "[path to nu.exe]",
                 "guid": "{cb7fc3d4-2cc2-40d8-8369-97485934bcf2}",
                 "hidden": false,
                 "icon": null,
@@ -130,8 +120,7 @@
             }
         ]
     },
-    "schemes": 
-    [
+    "schemes": [
         {
             "background": "#1F2430",
             "black": "#191E2A",

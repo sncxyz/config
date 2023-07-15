@@ -36,7 +36,6 @@ let colour_theme = {
     #    '#197fe6'
     #  } else { 'light_gray' }
     #}
-    duration: white
     range: white
     float: white
     string: white
