@@ -1,11 +1,6 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
     {
-        "key": "ctrl+j",
-        "command": "workbench.action.terminal.toggleTerminal",
-        "when": "terminal.active"
-    },
-    {
         "key": "ctrl+oem_3",
         "command": "-workbench.action.terminal.toggleTerminal",
         "when": "terminal.active"
@@ -74,5 +69,15 @@
         "key": "alt+oem_4",
         "command": "-editor.action.inlineSuggest.showPrevious",
         "when": "inlineSuggestionVisible && !editorReadonly"
+    },
+    {
+        "key": "alt+i",
+        "command": "editor.action.showHover",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+i",
+        "command": "-editor.action.showHover",
+        "when": "editorTextFocus"
     }
 ]
