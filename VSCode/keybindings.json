@@ -71,7 +71,7 @@
         "when": "inlineSuggestionVisible && !editorReadonly"
     },
     {
-        "key": "alt+i",
+        "key": "ctrl+j",
         "command": "editor.action.showHover",
         "when": "editorTextFocus"
     },
