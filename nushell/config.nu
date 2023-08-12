@@ -93,7 +93,7 @@ let external_completer = {|spans|
 }
 
 
-let-env config = {
+$env.config = {
   ls: {
     use_ls_colors: true # use the LS_COLORS environment variable to colorize output
     clickable_links: false # enable or disable clickable links. Your terminal has to support links.
@@ -112,6 +112,10 @@ let-env config = {
       wrapping_try_keep_words: true # A strategy used by the 'wrapping' methodology
       truncating_suffix: "..." # A suffix used by the 'truncating' methodology
     }
+  }
+
+  cursor_shape: {
+    emacs: block
   }
 
   explore: {
